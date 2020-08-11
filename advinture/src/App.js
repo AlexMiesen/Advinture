@@ -1,23 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import caro_frida from './images/caro_frida.jpg'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Button from './components/button'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={caro_frida} clasName="caro-frida" alt="caro and frida" />
+        <Button>
+        </Button>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+           Wine with Caro and Frida's
+ is Fine </p>
       </header>
     </div>
   );
