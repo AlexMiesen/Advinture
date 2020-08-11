@@ -9,12 +9,18 @@ function App() {
   return (
     <div className="container">
       <header className="App-header">
-        <img src={caro_frida} clasName="caro-frida" alt="caro and frida" />
-        <Button>
-        </Button>
-        <p>
-           Wine with Caro and Frida's
- is Fine </p>
+        <div className="row">
+          <img src={caro_frida} clasName="caro-frida" alt="caro and frida" />
+          <div className="col">
+            <Button>
+            </Button>
+          </div>
+          <div className="col">
+            <p>
+              Wine with Caro and Frida's
+    is Fine </p>
+          </div>
+        </div>
       </header>
     </div>
   );
